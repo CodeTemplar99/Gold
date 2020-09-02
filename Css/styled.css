@@ -1,0 +1,527 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-size: 100%;
+    background-color: black;
+}
+
+.navbar {
+    background: #0000008f;
+    border-bottom: 3px solid #F1B82D;
+}
+
+nav .container {
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.navbar-brand {
+    /* color: silver !important; */
+    color: #F1B82D !important;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Satisfy',
+        cursive;
+    font-family: 'Pacifico',
+        cursive;
+}
+
+.nav-link {
+    color: silver !important;
+}
+
+.nav-link:hover {
+    color: rgb(233, 182, 55) !important;
+}
+
+.collapse {
+    position: absolute;
+    right: 0%;
+}
+
+.c1 {
+    background: #00729b0a;
+}
+
+.s1 {
+    height: 92vh;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    position: relative;
+    margin-top: 0px !important;
+    background: url("/images/Jewelry-Business.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.s1_text_con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1_img_con {
+    display: none;
+    width: 60vh;
+    height: 60vh;
+    background: url("/images/pngguru.com.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.s1_text_con :first-child {
+    font-size: 4rem;
+    line-height: 1.3;
+    font-weight: bold;
+    word-wrap: break-word;
+    color: #fffffff6;
+    font-style: italic;
+    text-shadow: 2px 5px 5px black;
+    font-family: 'Satisfy',
+        cursive;
+    font-family: 'Charm',
+        cursive;
+
+}
+
+.s1-detail {
+    color: white !important;
+    font-size: 1.4rem;
+    font-weight: normal;
+    width: 70%;
+    word-wrap: break-word;
+    background-color: #00000049;
+    padding: 10px;
+    text-shadow: 3px 4px 50px red;
+    font-family: 'Charm',
+        cursive;
+
+}
+
+
+
+.btn {
+    color: white;
+    background: transparent !important;
+    border: hidden;
+    color: white;
+    text-align: center;
+    border: 2px solid #F1B82D;
+    padding: .5rem 1.75rem !important;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background: #F1B82D !important;
+    border: hidden !important;
+}
+
+.arrow-con {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-down {
+    color: #F1B82D;
+    position: relative;
+    width: auto;
+    font-size: 46px;
+    font-weight: bold;
+    transform: rotate(180deg) !important;
+    animation: reBounce 2s linear 0s infinite !important;
+    cursor: pointer;
+}
+
+
+
+@keyframes reBounce {
+    0% {
+        top: -5px;
+    }
+
+    50% {
+        top: 10px;
+    }
+
+    100% {
+        top: -5px;
+    }
+}
+
+.s2 .lead {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.s2-detail {
+    text-align: center !important;
+    width: 100%;
+}
+
+.s2-flex {
+    /* border: 1px solid dimgray; */
+    border-radius: 0px;
+}
+
+.s2-flex-left {
+    width: 30%;
+    /* border-radius: 0; */
+}
+
+.s2-flex-right {
+    width: 100%;
+    border-radius: 0;
+    /* border: 1px solid dimgray; */
+}
+
+.feature_box {
+    background: white;
+    width: 40vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0px 10px 10px 10px;
+    border: 2px solid inherit !important;
+    /* border: solid; */
+    border-radius: 12px !important;
+}
+
+.feature_box .fa {
+    font-size: 200%;
+    margin-bottom: 10px;
+    color: #00c3ff;
+}
+
+.feature_title {
+    font-size: 1rem !important;
+    color: gray;
+    text-align: center;
+}
+
+.feature_tags {
+    display: inline-block;
+    display: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.603);
+    margin: 3px;
+    /* margin-bottom: 30px !important; */
+    padding: 2px 5px 2px 5px;
+    border-radius: 4px;
+}
+
+/* ------------ */
+.s2 .lead {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.s2-detail {
+    text-align: left !important;
+}
+
+.s2-flex {
+    /* border: 1px solid dimgray; */
+    border-radius: 0px;
+}
+
+
+.feature_box {
+    background: #7e7e7e62;
+    width: 40vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* margin: 0px 5px 10px 5px; */
+    margin: 5px;
+    border: hidden !important;
+    border: 1px solid #F1B82D !important;
+    border-radius: 0px !important;
+    border-collapse: collapse;
+    background: url("/images/pngfuel.com2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+}
+
+#our_service-con {
+    width: 90vh;
+    /* height: initial; */
+    display: block;
+    background: url("/images/crucible-14-article-03-pic-01.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+}
+
+.feature_box .fa {
+    font-size: 200%;
+    margin-bottom: 10px;
+    color: #00c3ff;
+}
+
+.feature_title {
+    font-size: 1rem !important;
+    color: gray;
+    text-align: center;
+}
+
+.feature_tags {
+    display: inline-block;
+    display: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.603);
+    margin: 3px;
+    /* margin-bottom: 30px !important; */
+    padding: 2px 5px 2px 5px;
+    border-radius: 4px;
+}
+
+.feature_box:hover .fa {
+    color: #00729b !important;
+}
+
+.brands_lead {
+    font-size: 170%;
+    font-family: 'Sofia',
+        cursive;
+
+}
+
+.as_in_boxes {
+    width: 20vh;
+    height: 15vh;
+    border-radius: 0;
+    background: white;
+    border: 1px solid silver;
+    padding: 1px;
+    margin: 0px 30px 0px 30px;
+}
+
+.as_in_boxes img {
+    width: inherit;
+    height: inherit;
+}
+
+.strip {
+    height: 60vh;
+    background: #cfcfcf1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("/images/crucible-14-article-03-pic-01.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 90%;
+}
+
+.strip-lead {
+    font-family: 'Engagement',
+        cursive;
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 1.3;
+    color: white;
+}
+
+.strip-detail {
+    margin-bottom: 2.66667rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.footer {
+    background: #00729b0a;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-con {
+    background: transparent;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0 !important;
+}
+
+.footer-con-title {
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: .66667rem;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #4d4c4cfb;
+
+}
+
+.footer-con .list-group-item {
+    padding: 2px;
+    border: hidden;
+    margin-bottom: 10px;
+    background: transparent;
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-con .list-group-item:hover {
+    color: #00729b;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:1024px) {
+    .feature_box {
+        width: 40vh;
+        height: 60vh;
+        margin: 5px;
+    }
+
+    #our_service-con {
+        width: 80vh;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .collapse {
+        position: relative;
+    }
+
+    .navbar-toggler {
+        background-color: #F1B82D;
+        border: hidden !important;
+    }
+
+    .s1_text_con :first-child {
+        font-size: 3.3rem;
+        line-height: 1.3;
+    }
+
+    .s1-detail {
+        font-size: 1.2rem;
+        font-weight: 300;
+
+    }
+
+    .strip-lead {
+        font-size: 3.2rem;
+        line-height: 1.1;
+    }
+
+
+    .feature_box {
+        width: 20vh;
+        height: 20vh;
+    }
+
+    #our_service-con {
+        width: 90vh;
+        height: 60vh;
+    }
+
+    .as_in_con {
+        overflow-x: auto;
+    }
+
+    .as_in_boxes {
+        margin: 20px;
+        min-width: 20vh;
+    }
+
+    .footer {
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer-con {
+        width: 27vh;
+    }
+
+    .footer-con-title {
+        font-size: 1.3rem;
+
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .s1_text_con :first-child {
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+
+    .s1-detail {
+        font-size: 1.2rem;
+        font-weight: 300;
+
+    }
+
+    .as_in_boxes {
+        height: 20vh;
+    }
+
+    .strip-lead {
+        font-size: 2.2rem;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .s1_text_con :first-child {
+        font-size: 160%;
+        line-height: .3;
+        text-align: center;
+    }
+
+    .s1-detail {
+        font-size: 16px;
+
+    }
+
+    .as_in_boxes {
+        height: 20vh;
+    }
+
+    .strip-lead {
+        font-size: 180%;
+        text-align: center;
+        line-height: 1.1;
+    }
+
+    .footer-con {
+        width: 24vh;
+    }
+
+    .footer-con-title {
+        font-size: 1.2rem;
+
+    }
+}
