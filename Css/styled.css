@@ -494,6 +494,9 @@ nav .container {
 }
 
 @media screen and (max-width:375px) {
+.navbar-brand{
+    font-size: 150%;
+}
 
     .s1_text_con :first-child {
         font-size: 160%;
