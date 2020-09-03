@@ -118,12 +118,12 @@ nav .container {
     padding: .5rem 1.75rem !important;
     font-size: 1.1rem;
     line-height: 1.5;
-    border-radius: 8px;
+    border-radius: 0px;
 }
 
 .btn:hover {
     background: #F1B82D !important;
-    border: hidden !important;
+    border: 2px solid #F1B82D;
 }
 
 .arrow-con {
@@ -244,7 +244,7 @@ nav .container {
 
 
 .feature_box {
-    background: #7e7e7e62;
+    background-color: #ffffff;
     width: 40vh;
     height: 60vh;
     display: flex;
@@ -255,21 +255,21 @@ nav .container {
     /* margin: 0px 5px 10px 5px; */
     margin: 5px;
     border: hidden !important;
-    border: 1px solid #F1B82D !important;
     border-radius: 0px !important;
     border-collapse: collapse;
-    background: url("/images/pngfuel.com2.png");
+    background-image: url("/images/pngfuel.com2.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 50% 50%;
+    background-size: 40% 40%;
 }
 
 #our_service-con {
     width: 90vh;
+    border: 1px solid #F1B82D !important;
     /* height: initial; */
     display: block;
-    background: url("/images/crucible-14-article-03-pic-01.jpg");
-    background-position: right;
+    background: url("/images/xex3g.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 90% 90%;
 }
